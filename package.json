@@ -7,7 +7,7 @@
   "main": "./lib/steam_client",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seishun/node-steam.git"
+    "url": "https://github.com/wtxpwh/node-steam.git"
   },
   "scripts": {
     "prepare": "curl -fo servers.json \"https://api.steampowered.com/ISteamDirectory/GetCMList/v1/?cellid=0\""
@@ -17,7 +17,7 @@
     "buffer-crc32": "^0.2",
     "bytebuffer": "^5.0",
     "steam-crypto": "^0.0",
-    "steam-resources": "github:seishun/node-steam-resources#v1.2.0"
+    "steam-resources": "github:wtxpwh/node-steam-resources"
   },
   "bundledDependencies": [
     "steam-resources"
